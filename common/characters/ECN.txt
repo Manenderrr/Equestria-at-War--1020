@@ -1,0 +1,17 @@
+characters={
+	ECN_golden_muffin={
+		name=ECN_golden_muffin
+		portraits={
+			civilian={
+				large="gfx/leaders/ECN/GoldenMuffin.tga"
+			}
+		}
+		country_leader={
+			desc="ECN_GOLDEN_DESC"
+			ideology=pancusism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

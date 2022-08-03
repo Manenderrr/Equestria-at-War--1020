@@ -1,0 +1,36 @@
+﻿l_russian:
+ #Группы имён
+ ##Rifle Division
+ STG_INF_01_name:0 "Стрелковая дивизия"
+ STG_inf_01_fallback:0 "%d-я стрелковая дивизия" #Починить
+ ##Motor Rifle Division
+ STG_MOT_01_name:0 "Мотострелковая дивизия"
+ ##Motor Rifle Brigade
+ STG_MOT_02_name:0 "Мотострелковая бригада"
+ ##Mechanized Division
+ STG_MEC_01_name:0 "Механизированная дивизия"
+ ##Tank Division
+ STG_ARM_01_name:0 "Танковая дивизия"
+ ##Tank Brigade
+ STG_ARM_02_name:0 "Танковая бригада"
+ ##Guard Tank Brigade
+ STG_ARM_03_name:0 "Танковая бригада гвардии"
+ ##Paratrooper Division
+ STG_PAR_01_name:0 "Дивизия ВДВ"
+ ##Marine Division
+ STG_MAR_01_name:0 "Дивизия ВМФ"
+ ##Marine Brigade
+ STG_MAR_02_name:0 "Бригада ВМФ"
+ ##Guards Rifles
+ STG_GRD_01_name:0 "Стрелковая гвардия"
+ ##Guards Mechanized
+ STG_GMC_01_name:0 "Механизированная гвардия"
+ ##Guards Tanks
+ STG_GTC_01_name:0 "Танковая гвардия"
+ ##Diviziya VDV Pegasov
+ STG_PEG_01_name:0 "Дивизия ВДВ пегасов"
+ ##Brigada VDV Pegasov
+ STG_PEG_02_name: "Бригада ВДВ пегасов"
+ 
+ #Шаблоны дивизий
+ 

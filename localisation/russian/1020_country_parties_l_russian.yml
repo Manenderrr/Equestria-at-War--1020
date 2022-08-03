@@ -1,0 +1,43 @@
+﻿l_russian:
+ EQS_right_neutral_party: "Олигархия"
+ EQS_right_neutral_party_long: "Неформальное объединение эквестрийских диктаторов"
+ EQS_left_revolutionary_party: "КПЭ"
+ EQS_left_revolutionary_party_long: "Коммунистическая Партия Эквестрии"
+ EQS_harmonist_party: "Селестийская Коалиция"
+
+ STG_left_revolutionary_party: "СПС"
+ STG_left_revolutionary_party_long: "Социалистическая Партия Сталлионграда"
+ STG_harmonist_party: "СДПС"
+ STG_harmonist_party_long: "Социал-демократическая партия Сталлионграда"
+ STG_right_revolutionary_party: "Северянский Авангард"
+
+ CRY_left_revolutionary_party: "КСП"
+ CRY_left_revolutionary_party_long: "Кристальная Социалистическая Партия"
+
+ GRF_left_revolutionary_party: "НГСП"
+ GRF_left_revolutionary_party_long: "Новогрифонийская Социалистическая Партия"
+
+ NCN_centrist_party: "КБСЧ"
+ NCN_centrist_party_long: "Комитет безопасности Северной Чейнджлингии"
+ NCN_left_neutral_party: "Мафия"
+ NCN_right_revolutionary_party: "Ультраправые боевики"
+ 
+ ECN_left_revolutionary_party: "СПВЧ"
+ ECN_left_revolutionary_party_long: "Социалистическая Партия Восточной Чейнджлингии"
+ ECN_harmonist_party: "СДПВЧ"
+ ECN_harmonist_party_long: "Социал-Демократическая Партия Восточной Чейнджлингии"
+ 
+ WCN_harmonist_party: "Селестийское правительство в изгнании"
+
+ PNG_left_revolutionary_party: "КПП"
+ PNG_left_revolutionary_party_long: "Коммунистическая Партия Пингленда"
+
+ JAK_left_revolutionary_party: "Ты чё тут делаешь"
+ JAK_left_neutral_party: "Иди давай отсюда"
+ JAK_right_revolutionary_party: "Эта страна должна быть удалена"
+ JAK_right_neutral_party: "Здесь нечего делать"
+
+ STL_left_reolutionary_party: "ССП(пс)"
+ STL_left_reolutionary_party_long: "Северная Социалистическая Партия (просеверянские)"
+ STL_left_neutral_party: "ССП(н)"
+ STL_left_neutral_party_long: "Северная Социалистическая Партия (националисты)"

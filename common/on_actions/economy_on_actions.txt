@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				update_budjet = yes
+			}
+		}
+	}
+	on_daily = {
+		effect = {
+			update_budjet = yes
+			add_to_variable = { current_money = true_country_income } #Finally add muneh
+		}
+	}
+}

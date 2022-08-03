@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_left_revolutionary_group"
+		texturefile = "gfx/interface/ideologies/left_revolutionary_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_right_revolutionary_group"
+		texturefile = "gfx/interface/ideologies/right_revolutionary_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_right_neutral_group"
+		texturefile = "gfx/interface/ideologies/centrist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_harmonist_group"
+		texturefile = "gfx/interface/ideologies/harmonist_group.dds"
+	}
+}

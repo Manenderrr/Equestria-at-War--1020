@@ -1,0 +1,3 @@
+ECN = "countries/East Changeling.txt"
+WCN = "countries/West Changeling.txt"
+NCN = "countries/Northern Changelings.txt"

@@ -1,0 +1,9 @@
+add_namespace = technical_event
+country_event = { #Updates the focus tree
+	id = technical_event.1
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		mark_focus_tree_layout_dirty = yes
+	}
+}

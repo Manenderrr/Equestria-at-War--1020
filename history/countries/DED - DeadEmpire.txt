@@ -1,0 +1,19 @@
+capital = 415
+#oob = "DED_1007"
+set_research_slots = 1
+
+set_convoys = 70
+set_popularities = {
+	ultraradical = 100
+}
+set_politics = {
+	ruling_party = ultraradical
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_stability = 0.25
+
+set_rule = {
+	can_generate_female_aces = yes
+}

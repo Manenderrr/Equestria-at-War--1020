@@ -1,0 +1,38 @@
+capital = 262
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.7
+
+recruit_character = NCN_trox_onder
+
+add_political_power = 10
+set_convoys = 40
+
+add_ideas = {
+	CHN_idea_divided_nation
+}
+
+EQS = {
+	diplomatic_relation = { country = NCN relation = non_aggression_pact }
+	give_military_access = NCN
+}
+STG = {
+	diplomatic_relation = { country = NCN relation = non_aggression_pact }
+	give_military_access = NCN
+}
+give_military_access = EQS
+give_military_access = STG
+
+set_popularities = {
+	harmonist = 10
+	left_neutral = 10
+	centrist = 40
+	left_revolutionary = 10
+	right_revolutionary = 30 
+}
+set_politics = {
+	ruling_party = centrist
+	last_election = "1014.5.10"
+	election_frequency = 36
+	elections_allowed = no
+}

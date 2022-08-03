@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		CHN_idea_divided_nation = {
+			picture = GFX_idea_CHN_idea_splitted_nation
+			modifier = {
+				war_support_factor = -0.2
+			}
+			targeted_modifier = {
+				tag = ECN
+				attack_bonus_against = -0.2
+			}
+			targeted_modifier = {
+				tag = WCN
+				attack_bonus_against = -0.2
+			}
+			targeted_modifier = {
+				tag = NCN
+				attack_bonus_against = -0.2
+			}
+			modifier = {
+				ai_focus_aggressive_factor = -0.5
+			}
+		}

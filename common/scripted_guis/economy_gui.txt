@@ -1,0 +1,15 @@
+scripted_gui = {
+	money_indicator_gui = {
+		window_name = "money_indicator"
+		context_type = player_context
+		parent_window_token = "top_bar"
+		#visible = {
+		#	
+		#}
+		
+		#effects = {
+		#	
+		#}
+		ai_enabled = { always = no }
+	}
+}

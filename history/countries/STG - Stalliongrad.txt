@@ -1,0 +1,374 @@
+capital = 153
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_oob = "STG_1019"
+	else = {
+		set_oob = "STG_1019_nsb"
+	}
+}
+
+set_research_slots = 5
+starting_train_buffer = 2
+
+set_technology = {
+	pony_race = 1
+	tech_pegasi = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	#industry
+    ##main
+    concentrated_industry = 1
+    concentrated_industry2 = 1
+    concentrated_industry3 = 1
+    concentrated_industry4 = 1
+    concentrated_industry5 = 1
+    concentrated_industry_a = 1
+    concentrated_industry_b = 1
+    ##machine tools = 1
+    basic_machine_tools = 1
+    improved_machine_tools = 1
+    advanced_machine_tools = 1
+    assembly_line_production = 1
+    streamlined_line = 1
+    streamlined_line_a = 1
+    streamlined_line_b = 1
+    ##construction and excavation
+    ###construction
+    construction1 = 1
+    construction2 = 1
+    construction3 = 1
+    construction4 = 1
+    construction5 = 1
+    construction_a = 1
+    construction_b = 1
+    ###excavation
+    excavation1 = 1
+    excavation2 = 1
+    excavation3 = 1
+    excavation4 = 1
+    excavation5 = 1
+    excavation_a = 1
+    excavation_b = 1
+    ##fuel
+    fuel_silos = 1
+    ###synthetic oil
+    synth_oil_experiments = 1
+    ####oil processing
+    oil_processing = 1
+    improved_oil_processing = 1
+    advanced_oil_processing = 1
+    modern_oil_processing = 1
+    modern_oil_processing_a = 1
+    modern_oil_processing_b = 1
+    ####rubber processing
+    rubber_processing = 1
+    improved_rubber_processing = 1
+    advanced_rubber_processing = 1
+    modern_rubber_processing = 1
+    modern_rubber_processing_a = 1
+    modern_rubber_processing_b = 1
+    ###fuel refining
+    fuel_refining = 1
+    fuel_refining2 = 1
+    fuel_refining3 = 1
+    fuel_refining4 = 1
+    fuel_refining5 = 1
+    fuel_refining_a = 1
+    fuel_refining_b = 1
+    
+    #infantry
+    ##infantry equipment
+    ###first weapons
+    melee_weapons = 1
+    melee_weapons1 = 1
+    ###main
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    infantry_weapons2 = 1
+    advanced_infantry_weapons2 = 1
+    advanced_infantry_weapons_a = 1
+    ###firearms
+    improved_infantry_weapons = 1
+    improved_infantry_weapons_2 = 1
+    advanced_infantry_weapons = 1
+    advanced_infantry_weapons_b = 1
+    ###MAGICK
+    magical_weapons = 1
+    magical_weapons1 = 1
+    magical_weapons2 = 1
+    ##support weapons
+    support_weapons = 1
+    support_weapons2 = 1
+    support_weapons3 = 1
+    support_weapons4 = 1
+    support_weapons_a = 1
+    support_weapons_b = 1
+    support_weapons_c = 1
+    ##infantry acclimatization and night vision
+    infantry_acclimatization = 1
+    night_vision = 1
+    night_vision2 = 1
+    ##AT
+    infantry_at = 1
+    infantry_at2 = 1
+    infantry_at_a = 1
+    ##motorized, mechanized, etc.
+    ###main
+    motorised_infantry = 1
+    motorized_rocket_unit = 1
+    ###mechanized
+    mechanised_infantry = 1
+    mechanised_infantry2 = 1
+    mechanised_infantry3 = 1
+    mechanised_infantry_a = 1
+    mechanized_rocket_unit = 1
+    ###motorized (advanced)
+    motorised_infantry_2 = 1
+    ###amphibious
+    amphibious_mechanized_infantry = 1
+    amphibious_mechanized_infantry_2 = 1
+    amphibious_mechanized_infantry_3 = 1
+    ###armored cars
+    armored_car1 = 1
+    armored_car2 = 1
+    armored_car3 = 1
+    armored_car4 = 1
+    ##special forces (types)
+    ###marines
+    marines = 1
+    marines2 = 1
+    marines3 = 1
+    marines_a = 1
+    ###mountaineers
+    tech_mountaineers = 1
+    tech_mountaineers2 = 1
+    tech_mountaineers3 = 1
+    mountaineers_a = 1
+    ###paratroopers
+    paratroopers = 1
+    paratroopers2 = 1
+    paratroopers3 = 1
+    paratroopers_a = 1
+    ##special forces (main)
+    tech_special_forces = 1
+    advanced_special_forces = 1
+    extreme_environment_training = 1
+    elite_forces = 1
+    wilderness_specialization = 1
+    
+    #support
+    ##main
+    tech_support = 1
+    ###engineers
+    tech_engineers = 1
+    tech_engineers2 = 1
+    tech_engineers3 = 1
+    tech_engineers4 = 1
+    tech_engineers_a = 1
+    ###recon
+    tech_recon = 1
+    tech_recon2 = 1
+    tech_recon3 = 1
+    tech_recon4 = 1
+    tech_recon_a = 1
+    ###military police
+    tech_military_police = 1
+    tech_military_police2 = 1
+    tech_military_police3 = 1
+    tech_military_police4 = 1
+    tech_military_police_a = 1
+    ###maintenance company
+    tech_maintenance_company = 1
+    tech_maintenance_company2 = 1
+    tech_maintenance_company3 = 1
+    tech_maintenance_company4 = 1
+    tech_maintenance_company_a = 1
+    ###field hospital
+    tech_field_hospital = 1
+    tech_field_hospital2 = 1
+    tech_field_hospital3 = 1
+    tech_field_hospital4 = 1
+    tech_field_hospital_a = 1
+    ###logistics company
+    tech_logistics_company = 1
+    tech_logistics_company2 = 1
+    tech_logistics_company3 = 1
+    tech_logistics_company4 = 1
+    tech_logistics_company_a = 1
+    ###signal company
+    tech_signal_company = 1
+    tech_signal_company2 = 1
+    tech_signal_company3 = 1
+    tech_signal_company4 = 1
+    tech_signal_company_a = 1
+    ##HELICOPTER HELICOOPTEER
+    scout_helicopter1 = 1
+    transport_helicopter1 = 1
+    ##trains
+    basic_train = 1
+    wartime_train = 1
+    armored_train = 1
+    railway_gun = 1
+    
+    #tonkes (No Train Refund)
+    gwtank_chassis = 1
+    ##light tanks
+    basic_light_tank_chassis = 1
+    improved_light_tank_chassis = 1
+    advanced_light_tank_chassis = 1
+    semi_modern_light_tank_chassis = 1
+    ##amphibious tank
+    amphibious_tank_chassis = 1
+    amphibious_drive = 1
+    ##medium tanks and MBT
+    basic_medium_tank_chassis = 1
+    improved_medium_tank_chassis = 1
+    advanced_medium_tank_chassis = 1
+    main_battle_tank_chassis = 1
+    ##heavy tanks
+    basic_heavy_tank_chassis = 1
+    improved_heavy_tank_chassis = 1
+    advanced_heavy_tank_chassis = 1
+    ##Maus blyat
+    super_heavy_tank_chassis = 1
+    ##engines
+    engine_tech_1 = 1
+    engine_tech_2 = 1
+    engine_tech_3 = 1
+    engine_tech_4 = 1
+    ##armor
+    armor_tech_1 = 1
+    armor_tech_2 = 1
+    armor_tech_3 = 1
+    armor_tech_4 = 1
+    
+    #electronic and mechanical engineering
+    ##main
+    electronic_mechanical_engineering = 1
+    ###computing
+    mechanical_computing = 1
+    computing_machine = 1
+    improved_computing_machine = 1
+    advanced_computing_machine = 1
+    future_computing_machine = 1
+    future_computing_machine_2 = 1
+    ####encryption
+    basic_encryption_lar = 1
+    improved_encryption_lar = 1
+    advanced_encryption_lar = 1
+    future_encryption_lar = 1
+    future_encryption_2_lar = 1
+    ####decryption
+    basic_decryption_lar = 1
+    improved_decryption_lar = 1
+    advanced_decryption_lar = 1
+    future_decryption_lar = 1
+    future_decryption_2_lar = 1
+    ####FCS
+    basic_fire_control_system = 1
+    improved_fire_control_system = 1
+    advanced_fire_control_system = 1
+    semi_modern_fire_control_system = 1
+    modern_fire_control_system = 1
+    ###radio
+    radio = 1
+    radio_detection = 1
+    decimetric_radar = 1
+    improved_decimetric_radar = 1
+    centimetric_radar = 1
+    improved_centimetric_radar = 1
+    advanced_centimetric_radar = 1
+    future_radar = 1
+    ##NUKE and Bosanska Artilljerija
+    ###nukes
+    atomic_research = 1
+    nuclear_reactor = 1
+    nukes = 1
+    nuke_naval = 1
+    ###rockets
+    experimental_rockets = 1
+    rocket_engines = 1
+    improved_rocket_engines = 1
+    advanced_rocket_engines = 1
+    ####engines and HELICOPTER HELICOOPTEER
+    jet_engines = 1
+    experimental_helicopter = 1
+}
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+	set_autonomy = {
+		target = ECN
+		autonomy_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = CRY
+		autonomy_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = GRF
+		autonomy_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = STL
+		autonomy_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = PLB
+		autonomy_state = autonomy_colony
+	}
+	else = {
+		puppet = ECN
+		puppet = CRY
+		puppet = GRF
+		puppet = STL
+		puppet = PLB
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	#set_technology
+	set_naval_oob = "STG_1020_naval"
+}
+
+set_convoys = 15
+set_popularities = {
+	harmonist = 5
+	right_revolutionary = 3
+	left_revolutionary = 60
+	left_neutral = 31
+	right_neutral = 1
+}
+set_politics = {
+	ruling_party = left_revolutionary
+	last_election = "1020.1.1"
+	election_frequency = 24
+	elections_allowed = no
+}
+
+
+add_ideas = {
+	STG_idea_stalliongrad_tanks
+}
+set_stability = 0.6
+set_war_support = 0.6
+add_manpower = 5000
+
+recruit_character = STG_vasiliy_pantsushenko
+recruit_character = STG_supreme_soviet
+recruit_character = STG_nestor_lunin
+
+set_rule = {
+	can_generate_female_aces = yes
+}
+
+create_faction = "Socialist_Union"
+add_to_faction = PNG
+add_to_faction = PLB
+add_to_faction = YAK

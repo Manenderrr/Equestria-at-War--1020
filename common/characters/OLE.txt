@@ -1,0 +1,16 @@
+characters={
+	OLE_queen_velvet={
+		name=OLE_queen_velvet
+		portraits={
+			civilian={
+				large="gfx/leaders/OLE/QueenVelvet.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_VELVET_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

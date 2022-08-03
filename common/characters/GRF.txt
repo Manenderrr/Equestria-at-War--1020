@@ -1,0 +1,16 @@
+characters={
+	GRF_heinrich_redtail={
+		name=GRF_heinrich_redtail
+		portraits={
+			civilian={
+				large="gfx/leaders/GRF/Heinrich.tga"
+			}
+		}
+		country_leader={
+			desc="snooty_commie_bird_desc"
+			ideology=pancusism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

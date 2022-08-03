@@ -1,0 +1,65 @@
+#Income modifiers
+civilian_industry_income = { #Income from every civ. factory in billions
+	color_type = good
+	value_type = number
+	precision = 3
+}
+civilian_industry_income_factor = { #Factor of income from civ. factories
+	color_type = good
+	value_type = percentage
+	precision = 1
+}
+civilian_industry_buildings = { #Amount of civ. factories. Commonly should be 1. Used because I'm too lazy/smart to do this in normal way.
+	color_type = good
+	value_type = number
+	precision = 1
+}
+
+military_industry_income = { #Income from every mil. factory in billions
+	color_type = good
+	value_type = number
+	precision = 3
+}
+military_industry_income_factor = { #Factor of income from mil. factories
+	color_type = good
+	value_type = percentage
+	precision = 1
+}
+military_industry_buildings = { #Amount of mil. factories. Commonly should be 1. Used because I'm too lazy/smart to do this in normal way.
+	color_type = good
+	value_type = number
+	precision = 1
+}
+
+taxes_income = { #Income from taxes from every 1k of pops in billions
+	color_type = good
+	value_type = number
+	precision = 3
+}
+taxes_income_factor = { #Factor of income from taxes
+	color_type = good
+	value_type = percentage
+	precision = 1
+}
+
+other_income = { #Income from o t h e r  s o u r c e s  in billions
+	color_type = good
+	value_type = number
+	precision = 3
+}
+other_income_factor = { #Factor of income from o t h e r  s o u r c e s
+	color_type = good
+	value_type = percentage
+	precision = 1
+}
+
+gdp_modifier = { #Now does nothing
+	color_type = neutral
+	value_type = number
+	precision = 3
+}
+army_upkeep_per_battalion = { #Upkeep per battalion in billions
+	color_type = bad
+	value_type = number
+	precision = 3
+}

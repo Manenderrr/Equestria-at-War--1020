@@ -1,0 +1,7 @@
+ideas = {
+	country = {
+		ECN_idea_stalliongrad_support = {
+			
+		}
+	}
+}

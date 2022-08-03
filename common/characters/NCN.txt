@@ -1,0 +1,28 @@
+characters = {
+	NCN_trox_onder = {
+		name=NCN_trox_onder_name
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Changelings_Generic_land_1"
+			}
+			army = {
+				small = "GFX_Portrait_Changelings_Generic_land_1_small"
+				large = "GFX_Portrait_Changelings_Generic_land_1"
+			}
+		}
+		field_marshal = {
+			traits = { changeling_race_trait }
+			skill = 6
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 5
+		}
+		country_leader = {
+			expire = "2000.1.1"
+			ideology = NCN_police
+			traits = { }
+		}
+		
+	}
+}

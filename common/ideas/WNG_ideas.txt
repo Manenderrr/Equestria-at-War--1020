@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		WNG_save_our_souls = {
+			modifier={
+				stability_weekly = -0.001
+				political_power_cost = 0.05
+				political_power_factor = -0.1
+			} 
+		}
+		WNG_army_problems = {
+			modifier={
+				command_power_gain_mult = -0.1
+				army_org_regain = -0.2
+				army_strength_factor = -0.2
+			} 
+		}
+		#Восстания в оккупированных тёрках
+		WNG_die_together = {
+			modifier={
+				stability_weekly = -0.02
+			} 
+		}
+	}

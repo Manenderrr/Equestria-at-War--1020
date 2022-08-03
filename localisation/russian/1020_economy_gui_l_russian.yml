@@ -1,0 +1,2 @@
+﻿l_russian:
+ money_indicator_tt: "Денег в казне: [?current_money|+]M\nЧистый доход (учитывая расходы): [?true_country_income|+=]M\n\nДоходы: [?country_income|+=]M:\n   От §Yгражданской промышленности§!: [?civilian_industry_income_var|+=]M\n   От §7военной промышленности§!: [?military_industry_income_var|+=]M\n   От §5налогов§!: [?taxes_income_var|+=]M\n   Из §gдругих источников§!: [?other_income_var|+=]M\n\nРасходы: [?country_expenses|-=]M\n   От §8содержания армии§!: [?army_upkeep_expenses|-=]M"

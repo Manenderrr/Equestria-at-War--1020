@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_money_icon_text" #SUDDENLY muneh
+		texturefile = "gfx/texticons/money.dds"
+	}
+}

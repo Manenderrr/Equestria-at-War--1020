@@ -1,0 +1,16 @@
+characters={
+	WCN_Thorax={
+		name=WCN_thorax
+		portraits={
+			civilian={
+				large="gfx/leaders/WCN/Thorax.tga"
+			}
+		}
+		country_leader={
+			#desc="politics_thorax_desc"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

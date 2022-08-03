@@ -1,0 +1,18 @@
+capital = 251
+
+set_research_slots = 3
+
+set_convoys = 150
+set_popularities = {
+	harmonist = 6
+	right_revolutionary = 74
+	left_revolutionary = 15
+	right_neutral = 5
+}
+set_politics = {
+	ruling_party = right_revolutionary
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_stability = 0.6

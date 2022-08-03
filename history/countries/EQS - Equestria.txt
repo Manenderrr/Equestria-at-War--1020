@@ -1,0 +1,54 @@
+capital = 3
+
+set_research_slots = 3
+starting_train_buffer = 4
+
+set_convoys = 269
+set_popularities = {
+	harmonist = 40
+	right_revolutionary = 10
+	left_revolutionary = 20
+	left_neutral = 20
+	right_neutral = 10
+}
+set_politics = {
+	ruling_party = right_neutral
+	last_election = "1.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = EQC
+		autonomy_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = OLE
+		autonomy_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = WCN
+		autonomy_state = autonomy_demilitarized_colony
+	}
+	else = {
+		puppet = EQC
+		puppet = WCN
+		puppet = OLE
+	}
+}
+
+set_stability = 0.65
+set_war_support = 0.3
+
+recruit_character = EQS_celestia
+recruit_character = EQS_oligarchs
+
+create_faction = "All_ponies_front"
+
+set_rule = {
+	can_generate_female_aces = yes
+}

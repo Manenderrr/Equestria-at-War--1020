@@ -1,0 +1,16 @@
+characters={
+	STL_town_council = {
+		name=STL_town_council
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STL/city_council.tga"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = pancusism
+			traits = {
+			}
+		}
+	}
+}

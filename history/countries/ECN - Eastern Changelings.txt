@@ -1,0 +1,29 @@
+capital = 251
+
+set_research_slots = 3
+set_convoys = 150
+set_popularities = {
+	harmonist = 16
+	left_neutral = 35
+	left_revolutionary = 49
+}
+set_politics = {
+	ruling_party = left_revolutionary
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+add_ideas = {
+	CHN_idea_divided_nation
+	ECN_idea_stalliongrad_support
+}
+
+set_stability = 0.6
+
+#Characters
+recruit_character = ECN_golden_muffin
+
+set_rule = {
+	can_generate_female_aces = yes
+}

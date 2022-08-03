@@ -1,0 +1,11 @@
+spriteTypes = {
+	### CRY
+	spriteType = {
+		name = "GFX_idea_CRY_idea_princess_mi_amore_cadenza"
+		texturefile = "gfx/interface/ideas/CRY/CRY_idea_princess_mi_amore_cadenza.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHN_idea_divided_nation"
+		texturefile = "gfx/interface/ideas/CHN/CHN_idea_divided_nation.dds"
+	}
+}

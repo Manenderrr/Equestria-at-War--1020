@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		CRY_idea_princess_mi_amore_cadenza = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.1
+				harmonist_acceptance = 10
+			}
+			picture = GFX_idea_CRY_idea_princess_mi_amore_cadenza
+		}
+	}

@@ -1,0 +1,20 @@
+capital = 11
+set_research_slots = 3
+set_convoys = 69
+set_popularities = {
+	harmonist = 20
+	right_revolutionary = 10
+	left_neutral = 25
+	left_revolutionary = 45
+}
+set_politics = {
+	ruling_party = left_revolutionary
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_stability = 0.8
+recruit_character = YAK_karsak_sukhbataar
+set_rule = {
+	can_generate_female_aces = yes
+}

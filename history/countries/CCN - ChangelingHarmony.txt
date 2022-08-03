@@ -1,0 +1,22 @@
+capital = 251
+
+set_research_slots = 3
+
+set_popularities = {
+	harmonist = 75
+	right_revolutionary = 3
+	left_revolutionary = 17
+	right_neutral = 5
+}
+set_politics = {
+	ruling_party = harmonist
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_stability = 0.6
+
+set_rule = {
+	can_generate_female_aces = yes
+}

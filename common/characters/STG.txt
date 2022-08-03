@@ -1,0 +1,75 @@
+characters={
+	STG_supreme_soviet={
+		name= STG_supreme_soviet ###"Supreme Soviet"
+		portraits={
+			civilian={
+				large=GFX_Supreme_Soviet
+			}
+		}
+	}
+	STG_nestor_lunin={
+		name= STG_nestor_lunin ####"Nestor Lunin"
+		portraits={
+			army={
+				large="gfx/leaders/STG/Nestor.tga"
+				small="GFX_idea_nestor_lunin"
+			}
+			civilian = {
+				large = "gfx/leaders/STG/Nestor.tga"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist promising_general trait_nestor_lunin pony_race_trait }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=1000
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = leninism
+			desc = "NESTOR_DESC"
+			id = -1
+			traits = {
+			}
+		}
+		
+		advisor = {
+			slot = theorist
+			idea_token = nestor_lunin
+			ledger = army
+			cost = 100
+
+			allowed = {
+				original_tag = STG
+			}
+			available = {
+				
+			}
+
+			traits = { military_theorist army_chief_reform_2 }
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+	STG_vasiliy_pantsushenko = {
+		name = STG_vasiliy_pantsushenko_name 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STG/Vasya.tga"
+				small = "GFX_idea_vasya"
+			}
+		}
+		
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = pancusism
+			id = -1
+			traits = {
+			}
+		}
+	}
+}	

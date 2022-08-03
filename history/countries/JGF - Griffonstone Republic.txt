@@ -1,0 +1,15 @@
+capital = 389
+set_research_slots = 3
+set_convoys = 70
+set_popularities = {
+	harmonist = 30
+	right_revolutionary = 30
+	left_revolutionary = 30
+	right_neutral = 10
+}
+set_politics = {
+	ruling_party = harmonist
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}

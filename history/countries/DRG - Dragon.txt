@@ -1,0 +1,26 @@
+capital = 7
+set_research_slots = 2
+
+set_convoys = 11
+set_popularities = {
+	right_revolutionary = 24
+	left_revolutionary = 0
+	right_neutral = 44
+	harmonist = 32
+}
+set_politics = {
+	ruling_party = harmonist
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_stability = 0.5
+
+recruit_character = DRG_dragon_lord_ember
+recruit_character = DRG_lord_ruby
+recruit_character = DRG_lord_torch
+
+set_rule = {
+	can_generate_female_aces = yes
+}

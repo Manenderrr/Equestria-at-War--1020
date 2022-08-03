@@ -1,0 +1,19 @@
+capital = 544
+
+set_research_slots = 2
+
+set_stability = 0.4
+set_war_support = 0.2
+
+set_popularities = {
+	harmonist = 10
+	right_revolutionary = 0
+	left_revolutionary = 0
+	right_neutral = 90
+}
+set_politics = {
+	ruling_party = right_neutral
+}
+set_rule = {
+	can_generate_female_aces = yes
+}

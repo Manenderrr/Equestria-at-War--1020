@@ -1,0 +1,32 @@
+characters={
+	EQS_celestia={
+		name=EQS_princess_celestia
+		portraits={
+			civilian={
+				large="GFX_CelestiaPortrait"
+			}
+		}
+		country_leader={
+			#desc="POLITICS_CELESTIA_DESC"
+			ideology=social_democracy_harmonic
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		gender = female
+	}
+	EQS_oligarchs = {
+		name=EQS_oligarchs
+		portraits={
+			civilian={
+				large="GFX_EQS_Oligarchs_Portrait"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

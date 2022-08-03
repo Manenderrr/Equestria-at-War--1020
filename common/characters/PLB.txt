@@ -1,0 +1,16 @@
+characters={
+	PLB_chairman_icebear={
+		name="PLB_chairman_icebear_loc"
+		portraits={
+			civilian={
+				large="gfx/leaders/PLB/workerbear.tga"
+				small="gfx/interface/ideas/Advisors/PLB/icebear_advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=pancusism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+﻿capital = 411
+set_research_slots = 3
+
+add_manpower = 45000
+set_convoys = 70
+set_popularities = {
+	harmonist = 16
+	right_revolutionary = 24
+	left_revolutionary = 17
+	right_neutral = 43
+}
+set_politics = {
+	ruling_party = right_revolutionary
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_stability = 0.50
+
+set_rule = {
+	can_generate_female_aces = yes
+}

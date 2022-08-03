@@ -1,0 +1,9 @@
+ideas = {
+	country = {
+		WCN_idea_last_stronghold_of_harmonism = {
+			modifier = {
+				monthly_population = 0.2
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+capital = 356
+set_research_slots = 3
+
+set_convoys = 69 #I'm a child
+set_popularities = {
+	harmonist = 60
+	right_revolutionary = 1
+	left_revolutionary = 18
+	right_neutral = 21
+}
+set_politics = {
+	ruling_party = harmonist
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_cosmetic_tag = EQC_EQS
+set_stability = 0.77
+set_war_support = 0.32
+
+set_rule = {
+	can_generate_female_aces = yes
+}

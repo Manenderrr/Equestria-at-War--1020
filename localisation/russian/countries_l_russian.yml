@@ -1,0 +1,170 @@
+﻿l_russian:
+EQS: "Эквестрия"
+EQS_ADJ: "Эквестрийск"
+
+
+EQC_CHN_right_revolutionary: "Протекторат Новый Мейрленд"
+EQC_CHN_right_revolutionary_DEF: "Протекторат Новый Мейрленд"
+EQC_CHN_right_revolutionary_ADJ: "Ново-Мейрлендск"
+
+
+GRF_harmonist: "Республика Нова Грифония"
+GRF_harmonist_DEF: "Республика Нова Грифония"
+
+GRF_left_revolutionary: "Республика Нова Грифония"
+GRF_left_revolutionary_DEF: "Республика Нова Грифония"
+
+GRF: "Нова Грифония"
+GRF_DEF: "Нова Грифония"
+GRF_ADJ: "Новогрифонийск"
+
+
+CRY_right_neutral: "Кристальная Империя"
+CRY_right_neutral_DEF: "Кристальная Империя"
+CRY_right_neutral_ADJ: "Кристальная Империя"
+
+CRY_right_revolutionary: "Кристальная Империя"
+CRY_right_revolutionary_DEF: "Кристальная Империя"
+CRY_right_revolutionary_ADJ: "Кристальная Империя"
+
+CRY_left_revolutionary: "Кристальная Республика"
+CRY_left_revolutionary_DEF: "Кристальная Республика"
+CRY_left_revolutionary_ADJ: "Кристальная Республика"
+
+CRY_harmonist: "Кристальная Империя"
+CRY_harmonist_DEF: "Кристальная Империя"
+CRY_harmonist_ADJ: "Кристальная Империя"
+
+CRY: "Кристальные Земли"
+CRY_ADJ: "Кристальные Земли"
+CRY_ADJ: "Кристальн"
+
+
+PNG_left_revolutionary: "Демократическая Республика Пингленд"
+PNG_left_revolutionary_DEF: "Демократическая Республика Пингленд"
+PNG: "Пингленд"
+PNG_ADJ: "Пинглендск"
+
+OLE_right_neutral: "Королевство Оления"
+OLE_right_neutral_DEF: "Королевство Оления"
+
+OLE_right_revolutionary: "Оленийское Рике"
+OLE_right_revolutionary_DEF: "Оленийское Рике"
+
+OLE_left_revolutionary: "Оленийская Республика"
+OLE_left_revolutionary_DEF: "Оленийская Республика"
+
+OLE_harmonist: "Королевство Оления"
+OLE_harmonist_DEF: "Королевство Оления"
+
+OLE: "Оления"
+OLE_DEF: "Оления"
+OLE_ADJ: "Оленийск"
+
+
+YAK_right_neutral: "Якякистан Улус"
+YAK_right_neutral_DEF: "Якякистан Улус"
+
+YAK_right_revolutionary: "Ханство Якякистан"
+YAK_right_revolutionary_DEF: "Ханство Якякистан"
+
+YAK_left_revolutionary: "Якякистан Холбоо"
+YAK_left_revolutionary_DEF: "Якякистан Холбоо"
+
+YAK_harmonist: "Королевство Якякистан"
+YAK_harmonist_DEF: "Королевство Якякистан"
+
+YAK: "Якякистан"
+YAK_DEF: "Якякистан"
+YAK_ADJ: "Якск"
+
+NCN_centrist: "Администрация Северной Чейнджлингии"
+NCN_centrist_DEF: "Администрация Северной Чейнджлингии"
+NCN: "Северная Чейнджлингия"
+NCN_DEF: "Северная Чейнджлингия"
+NCN_ADJ: "Северочейнджлингск"
+
+ECN_left_revolutionary: "Федеративная Социалистическая Республика Чейнджлингия"
+ECN_left_revolutionary_DEF: "Федеративная Социалистическая Республика Чейнджлингия"
+ECN: "Восточная Чейнджлингия"
+ECN_DEF: "Восточная Чейнджлингия"
+ECN_ADJ: "Восточночейнджлингск"
+
+WCN_harmonist: "Свободные Ульи Чейнджлингов"
+WCN_harmonist_DEF: "Свободные Ульи Чейнджлингов"
+WCN: "Западная Чейнджлингия"
+WCN_DEF: "Западная Чейнджлингия"
+WCN_ADJ: "Западночейнджлингск"
+
+STL_left_revolutionary: "Северный Совет"
+STL_left_revolutionary_DEF: "Северный Совет"
+STL_STG_left_revolutionary_subject: "Северная АСР"
+STL_STG_left_revolutionary_subject_DEF: "Северная Автономная Социалистическая Республика"
+STL: "Северный Город"
+STL_DEF: "Северный Город"
+STL_ADJ: "Северн"
+
+
+DRG_right_neutral: "Драконьи Племена"
+DRG_right_neutral_DEF: "Драконьи Племена"
+
+DRG_right_revolutionary: "Драконья Империя"
+DRG_right_revolutionary_DEF: "Драконья Империя"
+
+DRG_left_revolutionary: "Союз Драконьих Коммун"
+DRG_left_revolutionary_DEF: "Союз Драконьих Коммун"
+
+DRG_harmonist: "Соединённые Драконьи Острова"
+DRG_harmonist_DEF: "Соединённые Драконьи Острова"
+
+DRG: "Драконьи Острова"
+DRG_DEF: "Драконьи Острова"
+DRG_ADJ: "Драконск"
+
+
+STG_right_revolutionary: "Северянская Империя"
+STG_right_revolutionary_DEF: "Северянская Империя"
+
+STG_left_revolutionary: "Социалистическая Республика Сталлионград"
+STG_left_revolutionary_DEF: "Социалистическая Республика Сталлионград"
+STG_left_revolutionary_ADJ: "Сталлионградск"
+
+STG_harmonist: "Северянская Республика"
+STG_harmonist_DEF: "Северянская Республика"
+
+STG: "Северяна"
+STG_DEF: "Северяна"
+STG_ADJ: "Северянск"
+
+
+PLB_right_neutral: "Сообщества Полярных Медведей"
+PLB_right_neutral_DEF: "Сообщества Полярных Медведей"
+PLB_right_revolutionary: "Белый Шторм"
+PLB_right_revolutionary_DEF: "Белый Шторм"
+PLB_left_revolutionary: "Социалистическая Республика Полярных Медведей"
+PLB_left_revolutionary_DEF: "Социалистическая Республика Полярных Медведей"
+PLB_harmonist: "Полярная Звезда"
+PLB_harmonist_DEF: "Полярная Звезда"
+PLB_right_revolutionary_ADJ: "Бел"
+PLB: "Полярия"
+PLB_DEF: "Полярия"
+PLB_ADJ: "Полярн"
+
+
+FACTION_NAME_LEFT_REVOLUTIONARY_1: "$CONTINENT_ADJ$ий Интернационал"
+FACTION_NAME_LEFT_REVOLUTIONARY_2: "$CONTINENT_ADJ$ий Левый Фронт"
+FACTION_NAME_LEFT_NEUTRAL_1: "$LEADER_COUNTRY_ADJ$ий Договор"
+FACTION_NAME_LEFT_NEUTRAL_2: "$CONTINENT_ADJ$ий союз"
+FACTION_NAME_RIGHT_REVOLUTIONARY_1: "$LEADER_COUNTRY_ADJ$ая Антанта"
+FACTION_NAME_RIGHT_REVOLUTIONARY_2: "$LEADER_COUNTRY_ADJ$ая Сфера"
+FACTION_NAME_RIGHT_NEUTRAL_1: "$CONTINENT_ADJ$ий Пакт"
+FACTION_NAME_RIGHT_NEUTRAL_2: "$LEADER_COUNTRY_ADJ$ий Альянс"
+FACTION_NAME_CENTRIST_1: "$LEADER_COUNTRY_ADJ$ий оборонительный союз"
+FACTION_NAME_CENTRIST_2: "$LEADER_COUNTRY_ADJ$ая Ассоциация"
+FACTION_NAME_ULTRARADICAL_1: "*Неизвестно*"
+FACTION_NAME_HARMONIST_1: "$CONTINENT_ADJ$ ассоциация"
+FACTION_NAME_HARMONIST_2: "$CONTINENT_ADJ$ Антанта"
+FACTION_NAME_HARMONIST_3: "$LEADER_COUNTRY_ADJ$ конкордат"
+FACTION_NAME_HARMONIST_4: "$LEADER_COUNTRY_ADJ$ союз"
+FACTION_NAME_HARMONIST_5: "$CONTINENT_ADJ$ коалиция"
+FACTION_NAME_HARMONIST_6: "$CONTINENT_ADJ$ федерация"

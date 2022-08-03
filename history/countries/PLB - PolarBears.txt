@@ -1,0 +1,21 @@
+capital = 290
+set_research_slots = 1
+set_convoys = 169
+set_popularities = {
+	harmonist = 10
+	right_revolutionary = 0
+	left_revolutionary = 70
+	left_revolutionary = 20
+	right_neutral = 10
+}
+set_politics = {
+	ruling_party = left_revolutionary
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_stability = 0.7
+recruit_character = PLB_chairman_icebear
+set_rule = {
+	can_generate_female_aces = yes
+}

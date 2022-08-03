@@ -1,0 +1,27 @@
+music_station = "eaw_1020"
+
+##### Equestria Peace ######
+music = {
+	song = "maintheme" #Чё там у нас должно быть...
+	chance = {
+		factor = 0
+
+		modifier = {
+			factor = 2
+			is_changeling_race = yes
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				original_tag = ECN
+				original_tag = WCN
+				original_tag = NCN
+				original_tag = CHN
+			}
+		}
+		modifier = {
+			factor = 1
+			has_war = yes
+		}
+	}
+}

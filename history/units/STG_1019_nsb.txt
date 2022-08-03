@@ -1,0 +1,572 @@
+﻿division_template={
+	name="Tankovaya Brigada"
+	division_names_group="STG_ARM_02"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		maintenance_company={ x=0 y=1 }
+		field_hospital={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+		engineer={ x=0 y=4 }
+	}
+	regiments={
+		modern_armor={ x=0 y=0 }
+		modern_armor={ x=0 y=1 }
+		motorized_rocket_brigade={ x=0 y=2 }
+		mechanized={ x=1 y=0 }
+		mechanized={ x=1 y=1 }
+		modern_sp_anti_air_brigade={ x=1 y=2 }
+	}
+}
+division_template={
+	name="Tankovaya Diviziya"
+	division_names_group="STG_ARM_01"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		maintenance_company={ x=0 y=1 }
+		field_hospital={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+		engineer={ x=0 y=4 }
+	}
+	regiments={
+		modern_armor={ x=0 y=0 }
+		modern_armor={ x=0 y=1 }
+		modern_armor={ x=0 y=2 }
+		modern_armor={ x=0 y=3 }
+		mechanized={ x=1 y=0 }
+		mechanized={ x=1 y=1 }
+		mechanized={ x=1 y=2 }
+		motorized_rocket_brigade={ x=2 y=0 }
+		motorized_rocket_brigade={ x=2 y=1 }
+		modern_sp_anti_air_brigade={ x=2 y=2 }
+	}
+}
+division_template={
+	name="Mekhanizirovannaya Diviziya"
+	division_names_group="STG_MEC_01"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		maintenance_company={ x=0 y=1 }
+		field_hospital={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+		engineer={ x=0 y=4 }
+	}
+	regiments={
+		mechanized={ x=0 y=0 }
+		mechanized={ x=0 y=1 }
+		mechanized={ x=0 y=2 }
+		mot_rocket_artillery_brigade={ x=0 y=3 }
+		mechanized={ x=1 y=0 }
+		mechanized={ x=1 y=1 }
+		mechanized={ x=1 y=2 }
+		mot_rocket_artillery_brigade={ x=1 y=3 }
+	}
+	template_counter=-1
+	origin_type=master_host
+}
+division_template={
+	name="Strelkovaya Diviziya"
+	division_names_group="STG_INF_01"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		maintenance_company={ x=0 y=1 }
+		field_hospital={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+		engineer={ x=0 y=4 }
+	}
+	regiments={
+		infantry={ x=0 y=0 }
+		infantry={ x=0 y=1 }
+		infantry={ x=0 y=2 }
+		infantry={ x=1 y=0 }
+		infantry={ x=1 y=1 }
+		infantry={ x=1 y=2 }
+	}
+}
+division_template={
+	name="Motostrelkovaya Diviziya"
+	division_names_group="STG_MOT_01"
+	regiments={
+		motorized={ x=0 y=0 }
+		motorized={ x=0 y=1 }
+		motorized={ x=0 y=2 }
+		motorized={ x=1 y=0 }
+		motorized={ x=1 y=1 }
+		motorized={ x=1 y=2 }
+	}
+}
+division_template={
+	name="Strelkovo-Magicheskaya Brigada"
+	support={
+		field_hospital={ x=0 y=0 }
+		logistics_company={ x=0 y=1 }
+		rocket_artillery={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+		scout_helicopter_recon={ x=0 y=4 }
+	}
+	regiments={
+		magical_mechanized={ x=0 y=0 }
+		magical_mechanized={ x=0 y=1 }
+		magical_mechanized={ x=0 y=2 }
+	}
+}
+division_template={
+	name="Strelkovo-Magicheskaya Diviziya"
+	division_names_group="STG_INF_01"
+	support={
+		unicorn_company={ x=0 y=0 }
+		logistics_company={ x=0 y=1 }
+		scout_helicopter_recon={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+		field_hospital={ x=0 y=4 }
+	}
+	regiments={
+		magical_mechanized={ x=0 y=0 }
+		magical_mechanized={ x=0 y=1 }
+		magical_mechanized={ x=0 y=2 }
+		magical_mechanized={ x=0 y=3 }
+		magical_mechanized={ x=1 y=0 }
+		magical_mechanized={ x=1 y=1 }
+		magical_mechanized={ x=1 y=2 }
+		magical_mechanized={ x=1 y=3 }
+	}
+}
+division_template={
+	name="Brigada VDV"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		field_hospital={ x=0 y=1 }
+		rocket_artillery={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+		anti_air={ x=0 y=4 }
+	}
+	regiments={
+		pegasi={ x=0 y=0 }
+		pegasi={ x=0 y=1 }
+		pegasi={ x=0 y=2 }
+	}
+}
+division_template={
+	name="Diviziya VDV"
+	division_names_group="STG_PEG_01"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		field_hospital={ x=0 y=1 }
+		signal_company={ x=0 y=2 }
+		logistics_company={ x=0 y=3 }
+		rocket_artillery={ x=0 y=4 }
+	}
+	regiments={
+		pegasi={ x=0 y=0 }
+		pegasi={ x=0 y=1 }
+		pegasi={ x=0 y=2 }
+		pegasi={ x=1 y=0 }
+		pegasi={ x=1 y=1 }
+		pegasi={ x=1 y=2 }
+	}
+}
+division_template={
+	name="Brigada Opolcheniya"
+	support={
+		
+	}
+	regiments={
+		infantry={ x=0 y=0 }
+		infantry={ x=0 y=1 }
+		infantry={ x=0 y=2 }
+	}
+}
+division_template={
+	name="Gornostrelkovaya Divisiya"
+	division_names_group="STG_INF_01"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		rocket_artillery={ x=0 y=1 }
+		logistics_company={ x=0 y=2 }
+		signal_company={ x=0 y=3 }
+	}
+	regiments={
+		mountaineers={ x=0 y=0 }
+		mountaineers={ x=0 y=1 }
+		mountaineers={ x=0 y=2 }
+		mountaineers={ x=0 y=3 }
+		mountaineers={ x=1 y=0 }
+		mountaineers={ x=1 y=1 }
+		mountaineers={ x=1 y=2 }
+		mountaineers={ x=1 y=3 }
+	}
+}
+division_template={
+	name="Diviziya VMF"
+	division_names_group="STG_MAR_01"
+	original_tag="STG"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		rocket_artillery={ x=0 y=1 }
+		signal_company={ x=0 y=2 }
+		logistics_company={ x=0 y=3 }
+		field_hospital={ x=0 y=4 }
+	}
+	regiments={
+		marine={ x=0 y=0 }
+		marine={ x=0 y=1 }
+		marine={ x=0 y=2 }
+		marine={ x=0 y=3 }
+		marine={ x=1 y=0 }
+		marine={ x=1 y=1 }
+		marine={ x=1 y=2 }
+		marine={ x=1 y=3 }
+	}
+}
+division_template={
+	name="Brigada VMF"
+	division_names_group="STG_MAR_01"
+	original_tag="STG"
+	support={
+		scout_helicopter_recon={ x=0 y=0 }
+		rocket_artillery={ x=0 y=1 }
+		signal_company={ x=0 y=2 }
+		logistics_company={ x=0 y=3 }
+		field_hospital={ x=0 y=4 }
+	}
+	regiments={
+		marine={ x=0 y=0 }
+		marine={ x=0 y=1 }
+		marine={ x=0 y=2 }
+	}
+}
+units = {
+	#Army
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6168
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6074
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3054
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9175
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6152
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9134
+		division_template = "Strelkovo-Magicheskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11069
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9095
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 9397
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7003
+		division_template = "Strelkovo-Magicheskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 385
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 6384
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10007
+		division_template = "Strelkovo-Magicheskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 3876
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9901
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6925
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 909
+		division_template = "Strelkovo-Magicheskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 6807
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 9763
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 869
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 4127
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 2026
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 2065
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 7602
+		division_template = "Strelkovo-Magicheskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 8099
+		division_template = "Strelkovo-Magicheskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 7618
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	
+	
+	division = {
+		#division_name = "1ya Brigada VDV 'Revolutciya'"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 322
+		division_template = "Brigada VDV"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 322
+		division_template = "Brigada VDV"
+		start_experience_factor = 0.35
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 322
+		division_template = "Brigada VDV"
+		start_experience_factor = 0.35
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 322
+		division_template = "Brigada VDV"
+		start_experience_factor = 0.35
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+}

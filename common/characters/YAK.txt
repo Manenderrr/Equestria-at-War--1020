@@ -1,0 +1,16 @@
+characters={
+	YAK_karsak_sukhbataar={
+		name=YAK_karsak_sukhbataar
+		portraits={
+			civilian={
+				large="gfx/leaders/YAK/Adygey.tga"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

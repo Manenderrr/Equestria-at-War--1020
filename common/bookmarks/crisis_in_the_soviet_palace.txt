@@ -1,0 +1,34 @@
+bookmarks = {
+	bookmark = {
+		name = "CRISIS_IN_THE_SOCIET_PALACE_NAME"
+		desc = "CRISIS_IN_THE_SOCIET_PALACE_DESC"
+		date = 1019.12.30
+		picture = "GFX_select_date_1936"
+		default_country = "STG"
+		default = yes
+
+		"STG"={
+			history = "STG_CRISIS_IN_THE_SOCIET_PALACE_DESC"
+			ideology = left_revolutionary
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"---" = {
+			history = "OTHER_CRISIS_IN_THE_SOCIET_PALACE_DESC"
+		}
+
+
+		# minors ####
+		#THERE IS NO MINORS
+		#EVERY COUNTRY IS MAJOR
+		#EQUALITY TO POLITICS
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

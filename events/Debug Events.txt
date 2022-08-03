@@ -1,0 +1,79 @@
+﻿add_namespace = eaw_debug
+add_namespace = 1020_debug
+
+country_event = {
+	id = eaw_debug.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event eaw_debug.1"}
+	hidden = yes
+	title = "Fix weapons for 1.6.2 patch"
+	desc = "Fix weapons for 1.6.2 patch"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Click me"
+		actually_fix_weapon_techs = yes 
+	}
+}
+
+country_event = {
+	id = eaw_debug.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event eaw_debug.2"}
+	hidden = yes
+	title = "Fix weapons for 1.6.2 patch"
+	desc = "Fix weapons for 1.6.2 patch"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Click me"
+		add_equipment_to_stockpile = {
+			type = magical_equipment
+			amount = 50
+		}
+	}
+}
+
+country_event = {
+	id = 1020_debug.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event 1020_debug.1"}
+	hidden = yes
+	title = "Event for test of removing ideas"
+	desc = "Yep XD"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Add economy_test_idea"
+		add_ideas = economy_test_idea
+	}
+	option = {
+		name = "Remove economy_test_idea"
+		remove_ideas = economy_test_idea
+	}
+	
+	option = {
+		name = "Add economy_test_idea_2"
+		add_ideas = economy_test_idea_2
+	}
+	option = {
+		name = "Remove economy_test_idea_2"
+		remove_ideas = economy_test_idea_2
+	}
+}
+
+unit_leader_event = {
+	id = eaw_debug.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event generic.17"}
+	title = generic.17.t
+	desc = generic.17.d
+	hidden = yes
+
+	picture = GFX_event_pony_trench
+
+	is_triggered_only = yes
+
+	option = {
+		log = "[This.GetGriffonHerzlandFemaleName]"
+	}
+}

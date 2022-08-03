@@ -1,0 +1,30 @@
+state={
+	id=161
+	name="STATE_161"
+
+	provinces={
+		284 303 337 3329 3359 3379 6385 9369 11287 11293 11306
+	}
+
+	manpower=6347100
+	state_category = metropolis
+	buildings_max_level_factor=1.00
+
+	history={
+		owner = STG
+		add_core_of = STG
+
+		victory_points = { 3329 3 }
+		victory_points = { 3359 20 }
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 10
+			arms_factory  = 10
+			rocket_site = 1
+			nuclear_reactor = 1
+			air_base = 10
+			anti_air_building = 5
+		}
+	}
+}

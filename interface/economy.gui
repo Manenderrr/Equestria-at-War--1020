@@ -1,0 +1,32 @@
+guiTypes = {
+	## muneh	
+	containerWindowType = {
+		name = "money_indicator"
+		position = { x = 1085 y = 0 }
+		
+		iconType ={
+			name ="money_value_bg"
+			spriteType = "GFX_generic_box_small"
+			position = { x=0 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		#iconType = {
+		#	name ="money_icon"
+		#	spriteType = "GFX_money_text_icon"
+		#	position = { x = 0 y = 8 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+	
+		instantTextBoxType = {
+			name ="money_value"
+			position = { x=0 y=7 }
+			font = "hoi_18mbs"
+			text = "[?current_money]M"
+			format = center
+			maxWidth = 90
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "money_indicator_tt"
+		}
+	}
+}

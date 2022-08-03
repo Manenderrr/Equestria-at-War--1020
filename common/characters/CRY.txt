@@ -1,0 +1,32 @@
+characters={
+	CRY_princess_mi_amore_cadenza={
+		name= nlr_cadance
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/Cadence.tga"
+				small = "GFX_idea_princess_cadence"
+			}
+		}
+
+		country_leader={
+			desc="POLITICS_CADENZA_DESC"
+			ideology=alicornrule
+			traits={ stout_defender }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CRY_arctic_lily={
+		name=CRY_arctic_lily
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/ArcticLily.tga"
+			}
+		}
+		country_leader={
+			ideology=pancusism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

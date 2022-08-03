@@ -1,0 +1,25 @@
+capital = 371
+set_research_slots = 3
+starting_train_buffer = 1.5
+set_convoys = 200
+set_stability = 0.37
+set_war_support = 0.5
+set_popularities = {
+	harmonist = 41
+	right_revolutionary = 23
+	left_revolutionary = 26
+	right_neutral = 10
+}
+set_politics = {
+	ruling_party = right_neutral
+	last_election = "1006.10.10"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_rule = {
+	can_generate_female_aces = yes
+}
+add_ideas = {
+    WNG_save_our_souls
+    WNG_army_problems
+}

@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		economy_test_idea = { #Idea for testing economy modifiers
+			modifier = {
+				civilian_industry_income = 100
+				civilian_industry_income_factor = 0.3
+				
+				military_industry_income = 1
+				military_industry_income_factor = 0.3
+				
+				taxes_income = 1
+				taxes_income_factor = 0.3
+				
+				other_income = 1
+				other_income_factor = 0.3
+				
+				#army_upkeep_per_battalion = 0.1
+			}
+		}
+		economy_test_idea_2 = { #I need this for something
+			modifier = {
+				civilian_industry_income = -100
+				civilian_industry_income_factor = -0.3
+				
+				military_industry_income = -1
+				military_industry_income_factor = -0.3
+				
+				taxes_income = -1
+				taxes_income_factor = -0.3
+				
+				other_income = -1
+				other_income_factor = -0.3
+				
+				#army_upkeep_per_battalion = -0.1
+			}
+		}
+	}
+}

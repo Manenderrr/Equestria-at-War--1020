@@ -1,0 +1,62 @@
+update_budjet = {
+	## Clear major statisctical variables
+	#set_variable = { true_country_income = 0}
+	set_variable = { country_income = 0}
+	set_variable = { country_expenses = 0}
+	
+	### Income ###
+	## Set income variables
+	set_variable = { civilian_industry_income_var = modifier@civilian_industry_buildings }
+	set_variable = { military_industry_income_var = modifier@military_industry_buildings }
+	set_variable = { taxes_income_var = max_manpower_k }
+	set_variable = { other_income_var = modifier@other_income }
+	
+	## Factor calculations
+	set_temp_variable = { civilian_industry_income_temp = modifier@civilian_industry_income_factor }
+	add_to_temp_variable = { civilian_industry_income_temp = 1 }
+	
+	set_temp_variable = { military_industry_income_temp = modifier@military_industry_income_factor }
+	add_to_temp_variable = { military_industry_income_temp = 1 }
+	
+	set_temp_variable = { taxes_income_temp = modifier@taxes_income_factor }
+	add_to_temp_variable = { taxes_income_temp = 1 }
+	
+	set_temp_variable = { other_income_temp = modifier@other_income_factor }
+	add_to_temp_variable = { other_income_temp = 1 }
+	
+	##Add base value
+	multiply_variable = { civilian_industry_income_var = 0.5 }
+	multiply_variable = { military_industry_income_var = 0.5 }
+	multiply_variable = { taxes_income_var = 0.001 }
+	
+	##Apply factor
+	multiply_variable = { civilian_industry_income_var = civilian_industry_income_temp }
+	multiply_variable = { military_industry_income_var = military_industry_income_temp }
+	multiply_variable = { taxes_income_var = taxes_income_temp }
+	multiply_variable = { other_income_var = other_income_temp }
+	
+	##Add income to variable
+	add_to_variable = { country_income = civilian_industry_income_var }
+	add_to_variable = { country_income = military_industry_income_var }
+	add_to_variable = { country_income = taxes_income_var }
+	add_to_variable = { country_income = other_income_var }
+	
+	
+	### Expenses ###
+	#Army upkeep calculations
+	set_variable = { army_upkeep_expenses = num_battalions }
+	
+	## Army upkeep ##
+	#Upkeep per battalion calculation
+	#Because it has a base value
+	set_temp_variable = { army_upkeep_modifier_sum = 0.01 }
+	add_to_temp_variable = { army_upkeep_modifier_sum = modifier@army_upkeep_per_battalion }
+	
+	#Apply upkeep
+	multiply_variable = { army_upkeep_expenses = army_upkeep_modifier_sum }
+	set_variable = { country_expenses = army_upkeep_expenses }
+	
+	
+	set_variable = { true_country_income = country_income }
+	subtract_from_variable = { true_country_income = country_expenses }
+}
