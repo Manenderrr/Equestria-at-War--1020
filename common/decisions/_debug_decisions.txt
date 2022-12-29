@@ -1,3 +1,41 @@
 debug_decisions = {
-
+	eat_everything = {
+		every_country = {
+			PREV = {
+				annex_country = {
+					target = PREV
+				}
+			}
+		}
+	}
+	world_war_comrades = {
+		complete_effect = {
+			every_country = {
+				target = PREV
+				type = annex_everything
+			}
+		}
+	}
+	world_state_comrades = {
+		complete_effect = {
+			every_state = {
+				add_core_of = PREV
+				add_claim_by = PREV
+			}
+		}
+	}
+	world_peace = {
+		complete_effect = {
+			every_state = {
+				set_demilitarized_zone = yes
+			}
+		}
+	}
+	this_is_all_baranovichi = {
+		complete_effect = {
+			every_state = {
+				set_state_name = "Baranovichi"
+			}
+		}
+	}
 }
